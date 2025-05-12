@@ -16,6 +16,7 @@
 
     <h1>CONTOH getElementsById</h1>
     <h1 id="judul-1">Selamat Datang</h1>
+    <h1>Gunanya: untuk mengambil 1 elemen berdasarkan ID (unik)</h1>
     <button onclick="ubahJudul()">Ubah Judul</button>
 
     <script src="dom_2.js"></script>
@@ -24,6 +25,7 @@
      <h1>CONTOH getElementsByClassName</h1>
      <p class="teks">Teks 1</p>
      <p class="teks">Teks 2</p>
+     <h1>Gunanya: untuk mengambil semua elemen dengan class tertentu</h1>
      <button onclick="ubahWarna()">Ubah Warna</button>
 
      <script src="dom_3.js"></script>
@@ -34,6 +36,7 @@
         <li>Item 1</li>
         <li>Item 2</li>
       </ul>
+      <h1>Gunanya: untuk mengambil semua elemen berdsarkan nama tag HTML</h1>
       <button onclick="hitungItem()">Hitung Item</button>
 
       <script src="dom_4.js"></script>
@@ -42,6 +45,7 @@
        <h1>CONTOH querySelector</h1>
        <p class="highlight">Teks Pertama</p>
        <p class="highlight">Teks Kedua</p>
+       <h1>Gunanya: untuk mengambil 1 elemen pertama sesuai selector CSS</h1>
        <button onclick="ganti()">Ganti Teks</button>
 
        <script src="dom_5.js"></script>
@@ -50,13 +54,19 @@
         <h1>CONTOH querySelectorAll</h1>
         <div class="kotak">Kotak 1</div>
         <div class="kotak">Kotak 2</div>
+        <h1>Gunanya: untuk mengambil semua elemen yang cocok dengan selector CSS</h1>
         <button onclick="ubahSemua()">Ubah Semua</button>
 
         <script src="dom_6.js"></script>
 
+        <!-- .innerText -->
+
+        <h1>Gunanya: untuk mengambil atau mengganti teks murni dari sebuah elemen HTML</h1>
+
         <!-- CONTOH DOM .innerHTML -->
         <h1>CONTOH DOM .innerHTML</h1>
         <div id="box">Ini <strong>teks penting</strong></div>
+        <h1>Gunanya: untuk mengambil atau mengganti isi HTML, termasuk tag di dalamnya.</h1>
         <button onclick="ubahIsi()">Ubah HTML</button>
 
         <script src="dom_7.js"></script>
@@ -64,6 +74,7 @@
         <!-- CONTOH DOM .style.property -->
         <h1>CONTOH DOM .style.property</h1>
         <p id="pesan">Perhatikan gaya teks ini</div>
+          <h1>Gunanya: untuk mengatur gaya tampilan elemen secara langsung lewat JavaScript</h1>
         <button onclick="ubahGaya()">Ubah Gaya</button>
 
         <script src="dom_8.js"></script>
@@ -73,7 +84,10 @@
         <button onclick="tambah()">Tambah Paragraf</button>
         <button onclick="hapus()">Hapus Paragraf</button>
         <div id="container"></div>
-
+        
+        <h1>Gunanya .createElement(): untuk membuat elemen HTML baru.</h1>
+        <h1>Gunanya .appendChild(): untuk menambahkan elemen baru ke dalam elemen induk di HTML.</h1>
+        <h1>Gunanya .removeChild(): untuk menghapus elemen anak dari elemen induk.</h1>
         <script src="dom_9.js"></script>
 </body>
 </html>
